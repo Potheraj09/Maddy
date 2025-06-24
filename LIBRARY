@@ -1,0 +1,4 @@
+from collections import Counter
+a="POTHERAJ PRABHU"
+b=Counter(a)
+print(b)
