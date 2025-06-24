@@ -1,0 +1,13 @@
+cricketers=[
+    {"name":"hardik","order":"middle","score":[80,102,105]},
+    {"name":"rohit","order":"top","score":[60,82,98]},
+    {"name":"virat","order":"top","score":[99,101,49]},
+    {"name":"dhoni","order":"bottom","score":[70,108,58]},
+    {"name":"jadeja","order":"middle","score":[90,102,99]}
+    ]
+for i in cricketers:
+    total=sum(i["score"])
+    avg=total//3
+    i["economy"]=avg
+cricketers.sort(key=lambda d:d["economy"],reverse="True") 
+print(cricketers,end=" ")
