@@ -1,0 +1,4 @@
+A=["2","3","4","5"]
+B=["SDHFSGFJ","SVSUIGFJ","DSFGDJ","SDGFZHDGF"]
+res=list(zip(A,B))
+print(res)
