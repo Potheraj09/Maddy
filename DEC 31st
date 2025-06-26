@@ -1,0 +1,22 @@
+a=int(input("enter a year"))
+b=a-2000
+c=b//4
+d=c*2
+e=b-c
+f=e+d
+g=f%7
+print(c)
+if g==0:
+    print("sun")
+if g==1:
+    print("mon")
+if g==2:
+    print("tue")
+if g==3:
+    print("wed")
+if g==4:
+    print("thu")
+if g==5:
+    print("fri")
+if g==6:
+    print("sat")
